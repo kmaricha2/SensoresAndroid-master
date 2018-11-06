@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meso.ldrl96.segundoparcial.FragmentZoom">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="108dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal|top"
+        android:id="@+id/layoutzoom"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:text="Sensor_de_Proximidad"
+            android:id="@+id/TextoZom"
+            android:maxLines="10" />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
